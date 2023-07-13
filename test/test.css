@@ -1,0 +1,26 @@
+.carousel {
+  width: 400px;
+  height: 221px;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.fade{
+    -webkit-animation: 1.5s fade;
+    animation: 1.5s fade; 
+
+}
+
+@-webkit-keyframes  fade{
+    from {opacity: 0.4}
+    to{opacity: 1}
+
+}
+
+
+@keyframes  fade{
+    from {opacity: 0.4}
+    to{opacity: 1}
+
+}
